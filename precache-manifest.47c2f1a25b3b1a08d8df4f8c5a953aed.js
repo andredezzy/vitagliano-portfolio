@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/vitagliano-portfolio/static/media/logo.4a239189.png"
   },
   {
-    "revision": "8669b000a5aa57cca151bd741c47fb89",
+    "revision": "312e4c98eef07348bc32991d809520bf",
     "url": "/vitagliano-portfolio/index.html"
   }
 ];

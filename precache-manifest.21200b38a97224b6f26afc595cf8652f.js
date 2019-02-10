@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e6154aec9463eca796de",
+    "revision": "e0327e1ddd053dbeb111",
     "url": "/vitagliano-portfolio/static/css/main.3d5414b0.chunk.css"
   },
   {
-    "revision": "e6154aec9463eca796de",
-    "url": "/vitagliano-portfolio/static/js/main.e6154aec.chunk.js"
+    "revision": "e0327e1ddd053dbeb111",
+    "url": "/vitagliano-portfolio/static/js/main.e0327e1d.chunk.js"
   },
   {
     "revision": "67f2a7030d3b505f249f",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/vitagliano-portfolio/static/media/logo.4a239189.png"
   },
   {
-    "revision": "e02422165b691b4a307f2cb49a083d32",
+    "revision": "4f2720d43adcb6ce6cd60f490903c645",
     "url": "/vitagliano-portfolio/index.html"
   }
 ];

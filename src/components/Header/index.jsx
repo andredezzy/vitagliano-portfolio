@@ -9,14 +9,14 @@ import { Container } from 'react-bootstrap';
 const Header = () => (
     <header>
         <Container>
-            <a id="logo" href="/vitagliano-portfolio/">
+            <a id="logo" href="#/">
                 <span>itagliano</span>
             </a>
 
             <Nav>
-                <NavItem title='Portfolio' to='/vitagliano-portfolio/portfolio' icon='archive' />
-                <NavItem title='Serviços' to='/vitagliano-portfolio/services' icon='inbox' />
-                <NavItem title='Contato' to='/vitagliano-portfolio/contact' icon='chat' />
+                <NavItem title='Portfolio' to='/portfolio' icon='archive' />
+                <NavItem title='Serviços' to='/services' icon='inbox' />
+                <NavItem title='Contato' to='/contact' icon='chat' />
             </Nav>
         </Container>
     </header>

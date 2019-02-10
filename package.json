@@ -2,7 +2,7 @@
   "name": "vitagliano",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://andredezzy.github.io/vitagliano-portfolio",
+  "homepage": "http://andredezzy.me/vitagliano-portfolio",
   "dependencies": {
     "material-icons-react": "^1.0.4",
     "react": "^16.8.1",
@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"

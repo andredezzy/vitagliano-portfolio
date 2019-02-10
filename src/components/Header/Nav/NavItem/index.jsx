@@ -9,7 +9,7 @@ const NavItem = (props) => {
 
     return (
         <li>
-            <a href={to}>
+            <a href={`#${to}`}>
                 <MaterialIcon id="icon" icon={icon} color='white' />
                 <span>{title}</span>
             </a>

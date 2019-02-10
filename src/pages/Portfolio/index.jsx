@@ -2,9 +2,9 @@ import React from 'react';
 
 import './styles.css';
 
-import Card, { ImageCard } from '../../components/Card';
+import Card from '../../components/Card';
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 const Portfolio = () => (
     <Container id="container">

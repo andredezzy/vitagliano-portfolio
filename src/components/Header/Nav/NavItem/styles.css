@@ -4,6 +4,7 @@ li {
 }
 
 li:hover {
+    text-decoration: none;
     color: #fcde4a;
     transition: all ease .5s;
 }
@@ -20,6 +21,7 @@ li span {
     text-decoration: none;
 }
 
+
 li span:hover {
     text-decoration: none;
     color: #fcde4a;
@@ -29,4 +31,10 @@ li span:hover {
 li #icon {
     float: left;
     margin: 69px 10px;
+}
+
+li #icon:hover {
+    text-decoration: none;
+    color: #fcde4a;
+    transition: all ease .5s;
 }

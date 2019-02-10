@@ -16,7 +16,7 @@ export default class Home extends Component {
             <h1>Cloud Craft</h1>
           </ImageCard>
           <Card md={8} color='#2c2c2c' height={'141px'}>
-            <h1>Olá! Me chamo Vitagliano</h1>
+            <h1>Olá!</h1>
           </Card>
         </Row>
       </Container>

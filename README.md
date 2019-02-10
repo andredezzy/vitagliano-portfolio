@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About
 
-A simple front-end portfolio made with ReactJS
-Inspired by the website (made with HTML): [Vitagliano's Website](https://www.gabrielrvita.com/) 
+A simple front-end portfolio made with ReactJS.<br>
+Inspired by the website (made with HTML): [Vitagliano's Website](https://www.gabrielrvita.com/).
 
 ## Learn More
 

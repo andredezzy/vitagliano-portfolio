@@ -9,7 +9,6 @@ const Nav = (props) => (<ul>{props.children}</ul>);
 Nav.propTypes = {
     children: function(props, propName, componentName) {
       const prop = props[propName];
-      console.log("test");
 
       let error = null;
       React.Children.forEach(prop, function(child) {

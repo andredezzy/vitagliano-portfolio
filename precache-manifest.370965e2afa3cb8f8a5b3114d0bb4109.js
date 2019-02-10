@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "e0327e1ddd053dbeb111",
+    "revision": "0a3dfd35cb251ba810cc",
     "url": "/vitagliano-portfolio/static/css/main.3d5414b0.chunk.css"
   },
   {
-    "revision": "e0327e1ddd053dbeb111",
-    "url": "/vitagliano-portfolio/static/js/main.e0327e1d.chunk.js"
+    "revision": "0a3dfd35cb251ba810cc",
+    "url": "/vitagliano-portfolio/static/js/main.0a3dfd35.chunk.js"
   },
   {
-    "revision": "67f2a7030d3b505f249f",
+    "revision": "991ad41fd3a29fdd6749",
     "url": "/vitagliano-portfolio/static/css/1.75cab39b.chunk.css"
   },
   {
-    "revision": "67f2a7030d3b505f249f",
-    "url": "/vitagliano-portfolio/static/js/1.67f2a703.chunk.js"
+    "revision": "991ad41fd3a29fdd6749",
+    "url": "/vitagliano-portfolio/static/js/1.991ad41f.chunk.js"
   },
   {
     "revision": "27198ff4c8d60e8682fc",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/vitagliano-portfolio/static/media/logo.4a239189.png"
   },
   {
-    "revision": "4f2720d43adcb6ce6cd60f490903c645",
+    "revision": "64692c7f46f34370ee126b9df373579e",
     "url": "/vitagliano-portfolio/index.html"
   }
 ];

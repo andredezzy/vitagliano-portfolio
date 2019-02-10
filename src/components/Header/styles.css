@@ -1,0 +1,44 @@
+header {
+    transition: .25s;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    line-height: 158px;
+}
+
+header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    background: rgb(59, 38, 59);
+    background: linear-gradient(to bottom, rgba(59, 38, 59, 1) 0%, rgba(34,21,34,1) 100%);
+}
+
+header #logo {
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    position: relative;
+    text-shadow: 0 2px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+header #logo:before {
+    content: "";
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 2px;
+    height: 150px;
+    float: left;
+    width: 40px;
+    background: url(../../logo.png) no-repeat center/100% auto;
+}

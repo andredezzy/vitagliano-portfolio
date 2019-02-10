@@ -1,0 +1,5 @@
+#container {
+    transition: .25s;
+    margin-top: -250px;
+    margin-bottom: 50px;
+}

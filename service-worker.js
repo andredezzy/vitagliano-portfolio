@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vitagliano-portfolio/precache-manifest.e178ded3b6cee9312e4ae6e9b23bf1b9.js"
+  "/vitagliano-portfolio/precache-manifest.5eeeb040e609c64bc8aedd24e4d80524.js"
 );
 
 workbox.clientsClaim();

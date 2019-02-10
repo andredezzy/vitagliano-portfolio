@@ -12,8 +12,8 @@ import Portfolio from './pages/Portfolio';
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/portfolio" component={Portfolio} />
+            <Route exact path="/vitagliano-portfolio/" component={Home} />
+            <Route path="/vitagliano-portfolio/portfolio" component={Portfolio} />
         </Switch>
     </BrowserRouter>
 );

@@ -4,7 +4,7 @@ import './styles.css';
 
 import Card, { ImageCard } from '../../components/Card';
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 export default class Home extends Component {
   render() {

@@ -3,3 +3,17 @@
     margin-top: -250px;
     margin-bottom: 50px;
 }
+
+#work-table {
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work-table #item {
+    margin-bottom: 43px;
+}
+
+#discord-icon {
+    margin-top: 10px;
+}

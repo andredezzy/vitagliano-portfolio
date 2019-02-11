@@ -3,38 +3,31 @@ li {
     margin-left: 40px;
 }
 
-li:hover {
+li:hover #icon {
     text-decoration: none;
     color: #fcde4a;
-    transition: all ease .5s;
+}
+
+li:hover span {
+    text-decoration: none;
+    color: #fcde4a;
 }
 
 li span {
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
     color: white;
     position: relative;
     font-size: 18px;
     font-weight: 700;
-    transition: all ease .5s;
     text-shadow: 0 2px 0px rgba(0, 0, 0, 0.25);
     text-decoration: none;
-}
-
-
-li span:hover {
-    text-decoration: none;
-    color: #fcde4a;
     transition: all ease .5s;
 }
 
 li #icon {
     float: left;
     margin: 69px 10px;
-}
-
-li #icon:hover {
-    text-decoration: none;
-    color: #fcde4a;
+    color: white;
     transition: all ease .5s;
 }

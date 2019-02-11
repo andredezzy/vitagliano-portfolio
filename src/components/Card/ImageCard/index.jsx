@@ -5,7 +5,6 @@ import './styles.css';
 import { Col } from 'react-bootstrap';
 
 const ImageCard = (props) => {
-
     const {  md = 4, image, color, height, width } = props;
 
     const style = {

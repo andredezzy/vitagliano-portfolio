@@ -1,20 +1,20 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
-import MaterialIcon from 'material-icons-react';
+import MaterialIcon from "material-icons-react";
 
-const NavItem = (props) => {
+const NavItem = props => {
     const { title, to, icon } = props;
 
     return (
-        <li>
-            <a href={`#${to}`}>
-                <MaterialIcon id="icon" icon={icon} color='white' />
+        <a href={`#${to}`}>
+            <li>
+                <MaterialIcon id="icon" icon={icon} />
                 <span>{title}</span>
-            </a>
-        </li>
-    )
+            </li>
+        </a>
+    );
 };
 
 export default NavItem;

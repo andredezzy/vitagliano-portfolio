@@ -4,10 +4,7 @@ import './styles.css';
 
 import { Col } from 'react-bootstrap';
 
-import ImageCard from './ImageCard';
-
 const Card = (props) => {
-
     const { md = 4, multiline, color, height, width } = props;
 
     const display = multiline ? "block" : "flex";
@@ -27,4 +24,3 @@ const Card = (props) => {
 };
 
 export default Card;
-export { ImageCard };

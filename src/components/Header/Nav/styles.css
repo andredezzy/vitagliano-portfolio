@@ -1,4 +1,8 @@
-ul {
+ul#disabled {
+    display: none;
+}
+
+div#nav-items {
     float: right;
     display: inline-block;
     position: relative;

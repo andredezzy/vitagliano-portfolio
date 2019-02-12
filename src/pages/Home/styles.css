@@ -3,3 +3,9 @@
     margin-top: -250px;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    #container #card {
+      margin-top: 20px;
+    }
+  }

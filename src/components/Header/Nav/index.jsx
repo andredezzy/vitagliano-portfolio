@@ -4,7 +4,15 @@ import "./styles.css";
 
 import NavItem from "./NavItem";
 
-const Nav = props => <ul>{props.children}</ul>;
+const Nav = props => {
+    return (
+        <div id="nav-items">
+            <ul id={window.innerWidth < 768 ? "disabled" : null}>
+                {props.children}
+            </ul>
+        </div>
+    );
+};
 
 Nav.propTypes = {
     children: function(props, propName, componentName) {

@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 A simple front-end portfolio made with ReactJS.<br>
 <br>
-github.io URL: [Vitagliano's ReactJS Website](http://vitagliano.andredezzy.me).<br>
+github.io URL: [Vitagliano's ReactJS Website](http://andredezzy.me/vitagliano-portfolio).<br>
 Inspired by the website (made with HTML): [Offline: Vitagliano's Website](https://www.gabrielrvita.com/).
 
 ## Learn More

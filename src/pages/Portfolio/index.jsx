@@ -10,7 +10,7 @@ import MaterialIcon from 'material-icons-react';
 const Portfolio = () => (
     <Container id="container">
         <Row>
-            <Card.TextCard multiline md={12} color="#2c2c2c" height={"165px"}>
+            <Card.TextCard multiline md={12} color="#2c2c2c" height={165} maxHeight={180}>
                 <h1>Portfolio</h1>
                 <p>Uma amostra de todos os meus trabalhos</p>
             </Card.TextCard>
@@ -43,11 +43,11 @@ const Portfolio = () => (
 
                 <Card.ScrollableImageCard image="https://i.imgur.com/SXEnz51.png">
                     <p>html/css/js/php</p>
-                    <h1>Modded MC</h1>
+                    <h1>Realm Host</h1>
                 </Card.ScrollableImageCard>
             </div>
 
-            <Card.TextCard multiline md={12} color="#4E314E" height={"165px"}>
+            <Card.TextCard multiline md={12} color="#4E314E" height={165} maxHeight={220}>
                 <h1>Gostou do meu trabalho?</h1>
                 <p>Entre em contato comigo pelo Discord: Vitagliano#7027</p>
             </Card.TextCard>

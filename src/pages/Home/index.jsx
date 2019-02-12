@@ -16,7 +16,7 @@ export default class Home extends Component {
             <h1>Cloud Craft</h1>
           </Card.ImageCard>
 
-          <Card.TextCard md={8} color='#2c2c2c' height={'141px'}>
+          <Card.TextCard md={8} color='#2c2c2c' height={141}>
             <h1>Olá!</h1>
           </Card.TextCard>
         </Row>

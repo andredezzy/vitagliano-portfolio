@@ -1,18 +1,23 @@
-import React from 'react';
+import React from "react";
 
-import './styles.css';
+import "./styles.css";
 
-import { Col } from 'react-bootstrap';
+import { Col } from "react-bootstrap";
 
-const Card = (props) => {
-    const { md = 4, multiline, color, height, width } = props;
+const TextCard = props => {
+    var { md = 4, multiline, color, height, maxHeight = height, width } = props;
 
-    const display = multiline ? "block" : "flex";
+    if (window.innerWidth < 400) height = height + 50;
+    else if (window.innerWidth < 768) height = height + 20;
+
+    height = height > maxHeight ? maxHeight + "px" : height + "px";
 
     const style = {
+        display: multiline ? "block" : "flex",
         background: color,
-        height, width, display
-    }
+        height,
+        width
+    };
 
     return (
         <Col md={md}>
@@ -20,7 +25,7 @@ const Card = (props) => {
                 {props.children}
             </div>
         </Col>
-    )
+    );
 };
 
-export default Card;
+export default TextCard;

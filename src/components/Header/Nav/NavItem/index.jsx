@@ -8,7 +8,7 @@ const NavItem = props => {
     const { title, to, icon } = props;
 
     return (
-        <a href={`#${to}`}>
+        <a id={window.innerWidth < 768 ? 'active' : null} href={`#${to}`}>
             <li>
                 <MaterialIcon id="icon" icon={icon} />
                 <span>{title}</span>

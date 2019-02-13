@@ -4,21 +4,26 @@ div#nav-items {
     position: relative;
 }
 
-button#nav-toggler {
+div.nav-toggler {
     display: none;
+    background-color: black;
     float: right;
-    position: relative;
-    z-index: 999;
+    margin-top: 55px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+div.nav-toggler:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-    div#nav-items {
-        display: none;
+    div.nav-toggler {
+        display: inline-block;
     }
 
-    button#nav-toggler {
-        position: absolute;
+    div.nav-toggler.true {
         display: inline-block;
-        z-index: 999;
+        background-color: white;
     }
 }

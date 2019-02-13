@@ -1,19 +1,20 @@
-li {
+a#nav-item {
     display: inline-block;
     margin-left: 40px;
+    list-style: none;
 }
 
-li:hover #icon {
+a#nav-item:hover #icon {
     text-decoration: none;
     color: #fcde4a;
 }
 
-li:hover span {
+a#nav-item:hover span {
     text-decoration: none;
     color: #fcde4a;
 }
 
-li span {
+a#nav-item span {
     font-family: 'Poppins', sans-serif;
     display: inline-block;
     color: white;
@@ -25,9 +26,15 @@ li span {
     transition: all ease .5s;
 }
 
-li #icon {
+a#nav-item #icon {
     float: left;
     margin: 65px 10px;
     color: white;
     transition: all ease .5s;
+}
+
+@media screen and (max-width: 768px) {
+    a#nav-item {
+        display: none;
+    }
 }

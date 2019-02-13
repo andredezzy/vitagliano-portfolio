@@ -1,16 +1,16 @@
 {
-  "main.css": "/vitagliano-portfolio/static/css/main.b2804310.chunk.css",
-  "main.js": "/vitagliano-portfolio/static/js/main.b50bf107.chunk.js",
-  "main.js.map": "/vitagliano-portfolio/static/js/main.b50bf107.chunk.js.map",
+  "main.css": "/vitagliano-portfolio/static/css/main.703295bf.chunk.css",
+  "main.js": "/vitagliano-portfolio/static/js/main.58bb8598.chunk.js",
+  "main.js.map": "/vitagliano-portfolio/static/js/main.58bb8598.chunk.js.map",
   "runtime~main.js": "/vitagliano-portfolio/static/js/runtime~main.a7b394f2.js",
   "runtime~main.js.map": "/vitagliano-portfolio/static/js/runtime~main.a7b394f2.js.map",
   "static/css/2.cf690d52.chunk.css": "/vitagliano-portfolio/static/css/2.cf690d52.chunk.css",
   "static/js/2.30d3debb.chunk.js": "/vitagliano-portfolio/static/js/2.30d3debb.chunk.js",
   "static/js/2.30d3debb.chunk.js.map": "/vitagliano-portfolio/static/js/2.30d3debb.chunk.js.map",
   "index.html": "/vitagliano-portfolio/index.html",
-  "precache-manifest.87133c21bc9839f156e0a53c199aea2f.js": "/vitagliano-portfolio/precache-manifest.87133c21bc9839f156e0a53c199aea2f.js",
+  "precache-manifest.eaf3945ce96ed8d170b0c9de4e7e86af.js": "/vitagliano-portfolio/precache-manifest.eaf3945ce96ed8d170b0c9de4e7e86af.js",
   "service-worker.js": "/vitagliano-portfolio/service-worker.js",
   "static/css/2.cf690d52.chunk.css.map": "/vitagliano-portfolio/static/css/2.cf690d52.chunk.css.map",
-  "static/css/main.b2804310.chunk.css.map": "/vitagliano-portfolio/static/css/main.b2804310.chunk.css.map",
+  "static/css/main.703295bf.chunk.css.map": "/vitagliano-portfolio/static/css/main.703295bf.chunk.css.map",
   "static/media/styles.css": "/vitagliano-portfolio/static/media/logo.4a239189.png"
 }

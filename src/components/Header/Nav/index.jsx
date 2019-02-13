@@ -7,9 +7,8 @@ import NavItem from "./NavItem";
 const Nav = props => {
     return (
         <div id="nav-items">
-            <ul id={window.innerWidth < 768 ? "disabled" : null}>
-                {props.children}
-            </ul>
+            <ul>{props.children}</ul>
+            <button id="nav-toggler" />
         </div>
     );
 };

@@ -1,9 +1,24 @@
-ul#disabled {
-    display: none;
-}
-
 div#nav-items {
     float: right;
     display: inline-block;
     position: relative;
+}
+
+button#nav-toggler {
+    display: none;
+    float: right;
+    position: relative;
+    z-index: 999;
+}
+
+@media screen and (max-width: 768px) {
+    div#nav-items {
+        display: none;
+    }
+
+    button#nav-toggler {
+        position: absolute;
+        display: inline-block;
+        z-index: 999;
+    }
 }

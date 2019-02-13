@@ -3,14 +3,13 @@ import React from "react";
 import "./styles.css";
 
 import { Nav, NavItem } from "./Nav";
-
 import { Container } from "react-bootstrap";
 
 const Header = () => (
     <header>
         <Container>
-            <a id="logo" href="#/">
-                <span>itagliano</span>
+            <a id="logo" href="/">
+                itagliano
             </a>
 
             <Nav>

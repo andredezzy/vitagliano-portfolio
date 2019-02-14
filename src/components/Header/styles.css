@@ -16,7 +16,7 @@ header:before {
     height: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     background: rgb(59, 38, 59);
-    background: linear-gradient(to bottom, rgba(59, 38, 59, 1) 0%, rgba(34,21,34,1) 100%);
+    background: linear-gradient(to bottom, rgba(59, 38, 59, 1) 0%, rgba(34, 21, 34, 1) 100%);
 }
 
 header #logo {
@@ -41,4 +41,14 @@ header #logo:before {
     float: left;
     width: 40px;
     background: url(../../logo.png) no-repeat center/100% auto;
+}
+
+
+/* resize margin on mobile devices */
+@media screen and (max-width: 768px) {
+
+    header #logo,
+    header #nav-items {
+        margin: 0 20px;
+    }
 }

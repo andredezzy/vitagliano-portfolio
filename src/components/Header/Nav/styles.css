@@ -10,8 +10,8 @@ div.hamburger {
     display: none;
     position: relative;
     background-color: #FCFCFC;
-    height: 6px;
-    width: 50px;
+    height: 5px;
+    width: 40px;
     margin: 75px 1px 0 0;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
@@ -20,19 +20,19 @@ div.hamburger {
 }
 
 div.hamburger::before {
-    top: -16px;
+    top: -11px;
 }
 
 div.hamburger::after {
-    top: 16px;
+    top: 11px;
 }
 
 div.hamburger.nav-toggler::before,
 div.hamburger.nav-toggler::after {
     content: '';
     position: absolute;
-    width: 50px;
-    height: 6px;
+    height: 5px;
+    width: 40px;
     background-color: #FCFCFC;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);

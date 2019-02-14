@@ -1,29 +1,67 @@
+/* nav items */
 div#nav-items {
     float: right;
     display: inline-block;
     position: relative;
 }
 
-div.nav-toggler {
+/* hamburguer menu */
+div.hamburger {
     display: none;
-    background-color: black;
-    float: right;
-    margin-top: 55px;
-    padding: 25px;
+    position: relative;
+    background-color: #FCFCFC;
+    height: 6px;
+    width: 50px;
+    margin: 75px 1px 0 0;
     border-radius: 10px;
-}
-
-div.nav-toggler:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    transition: 0.5s;
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    div.nav-toggler {
-        display: inline-block;
-    }
+div.hamburger::before {
+    top: -16px;
+}
 
-    div.nav-toggler.true {
-        display: inline-block;
-        background-color: white;
+div.hamburger::after {
+    top: 16px;
+}
+
+div.hamburger.nav-toggler::before,
+div.hamburger.nav-toggler::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background-color: #FCFCFC;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.7s,
+        background-color 0.5s;
+    transform: scale(0.9);
+}
+
+div.hamburger.nav-toggler.true {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+    transform: scale(0.5);
+}
+
+div.hamburger.nav-toggler.true::before {
+    top: 0;
+    transform: scale(2) rotate(135deg);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+div.hamburger.nav-toggler.true::after {
+    top: 0;
+    transform: scale(2) rotate(225deg);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* toggle hamburguer menu on mobile devices */
+@media screen and (max-width: 768px) {
+    div.hamburger {
+        display: flex;
     }
 }

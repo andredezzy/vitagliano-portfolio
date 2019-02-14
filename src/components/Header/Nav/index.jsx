@@ -25,18 +25,23 @@ export default class Nav extends Component {
 
     constructor() {
         super();
-        this.state = {isOpen: false};
+        this.state = { isOpen: false };
     }
 
     toggleCollapse = () => {
-        this.setState({isOpen: !this.state.isOpen});
+        this.setState({ isOpen: !this.state.isOpen });
     };
 
     render() {
         return (
             <div id="nav-items">
-                <ul className={`nav-collapse ${this.state.isOpen}`}>{this.props.children}</ul>
-                <div className={`nav-toggler ${this.state.isOpen}`} onClick={this.toggleCollapse} />
+                <div
+                    className={`hamburger nav-toggler ${this.state.isOpen}`}
+                    onClick={this.toggleCollapse}
+                />
+                <ul className={`nav-collapse ${this.state.isOpen}`}>
+                    {this.props.children}
+                </ul>
             </div>
         );
     }
